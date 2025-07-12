@@ -73,3 +73,35 @@ body {
   color: #111827;
   line-height: 1.3;
 }
+.action-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  background-color: #f5f7ff;
+}
+
+.action-text {
+  max-width: 450px;
+}
+
+.action-text h2 {
+  font-size: 1.8rem;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.action-text p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.action-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
